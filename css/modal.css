@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(36, 198, 220, 0.5);
+}
+
+.modal-content {
+  background-color: #ffebee;
+  background-image: url("../images/win_banner.png");
+  background-position: center;
+  background-size: cover;
+  margin: 12% auto;
+  width: 30%;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  animation-name: modalopen;
+  animation-duration: 2s;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f00;
+}
+
+.modal-body {
+  text-align: center;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  line-height: 2rem;
+  padding: 20px 50px;
+}
+
+.modal-body #starRating li {
+  display: inline-block;
+  list-style: none;
+}
+
+.modal-footer {
+  padding-bottom: 2.5vh;
+  color: #fff;
+  text-align: center;
+}
+
+#modal-btn {
+  background-color: rgba(50, 205, 50, 0.3);
+  padding: 1em 2em;
+  font-size: 1em;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#modal-btn:hover {
+  background-color: rgba(50, 205, 50, 0.6);
+}
