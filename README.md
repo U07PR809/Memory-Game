@@ -23,8 +23,9 @@ The project follows the guidelines of [Udacity Project Rubric](https://review.ud
 ## Dependencies
 
 To run the project, the following applications are used:
-_ [Font Awesome](https://fontawesome.com/)
-_ [Google Fonts for the Coda Font Family](https://fonts.google.com/specimen/Coda) \* [Starter Code](https://github.com/udacity/fend-project-memory-game)
+-	[Font Awesome](https://fontawesome.com/)
+-	 [Google Fonts for the Coda Font Family](https://fonts.google.com/specimen/Coda) 
+-	[Starter Code](https://github.com/udacity/fend-project-memory-game)
 
 ## Instructions
 
